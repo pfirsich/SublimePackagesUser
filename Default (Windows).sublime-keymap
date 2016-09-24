@@ -1,0 +1,26 @@
+[
+	{"keys": ["alt+l"], "command": "build", "args": {"variant": "Love2D"}},
+	{ "keys": ["ctrl+up"], "command": "swap_line_up" },
+	{ "keys": ["ctrl+down"], "command": "swap_line_down" },
+	{ "keys": ["ctrl+tab"], "command": "next_view" }, // before: next_view_in_stack
+	{ "keys": ["ctrl+shift+tab"], "command": "prev_view" }, // before: prev_view_in_stack
+	{ "keys": ["alt+s"], "command": "toggle_side_bar" },
+	{ "keys": ["shift+ctrl+r"], "command": "settings_refresh" },
+	{ "keys": ["ctrl+,"], "command": "show_overlay", "args": {"overlay": "goto", "text": "#"} },
+	{ "keys": ["f5"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
+    { "keys": ["ctrl+alt+d"], "command": "find_doc_selection", "args" : {"url" : "http://devdocs.io/#q=%s"} },
+    { "keys": ["ctrl+alt+o"], "command": "find_doc_selection", "args" : {"url" : "https://www.opengl.org/sdk/docs/man/html/%s.xhtml"} },
+    { "keys": ["alt+up"], "command": "scroll_lines", "args": {"amount": 3.0} },
+	{ "keys": ["alt+down"], "command": "scroll_lines", "args": {"amount": -3.0} },
+    { "keys": ["ctrl+u"], "command": "soft_undo" },
+    { "keys": ["ctrl+shift+u"], "command": "soft_redo" },
+    { "keys": ["ctrl+alt+u"], "command": "open_url" },
+
+    // So I don't have to move my hands to the arrow keys/home/end
+    { "keys": ["alt+j"], "command": "move", "args": {"by": "characters", "forward": false} },
+    { "keys": ["alt+l"], "command": "move", "args": {"by": "characters", "forward": true} },
+    { "keys": ["alt+i"], "command": "move", "args": {"by": "lines", "forward": false} },
+    { "keys": ["alt+k"], "command": "move", "args": {"by": "lines", "forward": true} },
+    { "keys": ["alt+u"], "command": "move_to", "args": {"to": "bol", "extend": false} },
+    { "keys": ["alt+o"], "command": "move_to", "args": {"to": "eol", "extend": false} }
+]

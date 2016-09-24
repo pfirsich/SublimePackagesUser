@@ -1,0 +1,10 @@
+{
+  "open_tasks_bullet": "›", // options: - | ❍ | ❑ | ■ | □ | ☐ | ▪ | ▫ | – | — | ≡ | → | › | [ ]
+  "color_scheme": "Packages/PlainTasks/tasks-eighties-dark.hidden-tmTheme",
+  "date_format": "(%d.%m.%y %H:%M)",
+  "draw_indent_guides": true,
+  "line_numbers": true,
+  "tab_size": 4,
+  "use_tab_stops": true,
+  "match_brackets": true
+}

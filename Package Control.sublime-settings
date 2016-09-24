@@ -1,0 +1,28 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"CMake",
+		"CMakeEditor",
+		"FindDoc",
+		"HttpStatusCode",
+		"Makefile Improved",
+		"Markdown Preview",
+		"MarkdownEditing",
+		"Monokai Extended",
+		"Open URL",
+		"OpenGL Shading Language (GLSL)",
+		"Package Control",
+		"PlainTasks",
+		"Protocol Buffer Syntax",
+		"Shell Turtlestein",
+		"Theme - Soda",
+		"Theme - Spacegray",
+		"TodoReview",
+		"TortoiseSVN"
+	]
+}
