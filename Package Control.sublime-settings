@@ -6,6 +6,8 @@
 	"installed_packages":
 	[
 		"AdvancedNewFile",
+		"All Autocomplete",
+		"C++11",
 		"CMake",
 		"CMakeEditor",
 		"FindDoc",
@@ -20,6 +22,7 @@
 		"PlainTasks",
 		"Protocol Buffer Syntax",
 		"Shell Turtlestein",
+		"SyncedSideBar",
 		"Theme - Soda",
 		"Theme - Spacegray",
 		"TodoReview",
